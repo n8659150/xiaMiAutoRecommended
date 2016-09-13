@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "虾米自动推荐插件",
+	"version": "1.0.0.0",
+	"description": "点击播放虾米自动为您推荐的歌曲",
+	"icons": {
+		"16": "images/icon16.png",
+		"48": "images/icon48.png",
+		"128": "images/icon128.png"
+	},
+	"browser_action": {
+	"default_icon": {
+		"19": "images/icon19.png",
+		"38": "images/icon38.png"
+	},
+	"permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  	],
+	"default_title": "虾米自动推荐",
+	"default_popup": "click.html"
+	}
+}
